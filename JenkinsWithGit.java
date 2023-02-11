@@ -7,5 +7,7 @@ public class JenkinsWithGit {
             System.out.println((char)i+((charPerLine%10==0)?"\n":"\t"));
             System.out.println();
         }
+
+        System.out.println("modifying the file to see the changes on Jenkins server!!");
     }
 }
